@@ -1,8 +1,8 @@
 import './Person.css';
 
-function Person({ person }) {
+function Person({ person, onVerFicha }) {
     return (
-        <div className="Person">
+        <div className="Person" onClick={() => onVerFicha(person)}>
             <div className="Person-image">
                 <img
                     alt={`${person.name.title} ${person.name.first}`}
