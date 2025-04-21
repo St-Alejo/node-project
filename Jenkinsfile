@@ -3,7 +3,7 @@ pipeline {
 
   environment {
     CI = "false" // Desactiva que React trate los warnings como errores
-    VERCEL_TOKEN = credentials('jenkins-token') // Token (si se usa despliegue, si no, puedes quitarlo)
+    VERCEL_TOKEN = credentials('29ba965c-8726-4391-8900-d1ea365a5754') // Token (si se usa despliegue, si no, puedes quitarlo)
   }
 
   stages {
